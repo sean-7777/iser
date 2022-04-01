@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - before: pwsh
+
+vscode:
+  extensions:
+    - ms-vscode.powershell-preview
+    - matklad.rust-analyzer
